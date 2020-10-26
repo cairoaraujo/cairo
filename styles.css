@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    background-color: rgba(228, 247, 255, 0.966);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Turret Road', cursive;
+
+    
+}
+#header{
+    background-color: #0d2c91;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-left: 0;
+}
+#menu{
+    margin-right: 100px;
+}
+#menu nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+#menu nav ul li a{
+    color: white;
+    margin-left: 15px;
+}
+#title{
+    color: white;
+    margin: 0;
+    font-family: 'Black Ops One', cursive;
+    font-size: 30px;
+    font-weight: 50;
+    margin-left: 30px;
+}
+#about{
+    margin-left: 5%;
+}
+#skills{
+    margin-left: 5%;
+}
+#foto-perfil{
+    width: 15%;
+    float: left;
+    padding-right: 5%;
+}
+.icons li img{
+    width: 2%;
+    float: left;
+    margin-left: 10px;
+    transition: 1s;
+}
+ul{
+    list-style-type: none;
+}
+
+.icons img:hover{
+    opacity: 0.7;
+    transform: scale(1.2);
+}
