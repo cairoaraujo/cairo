@@ -43,7 +43,7 @@ body h4{
     width: 100%;
     background-color: #f1f6f9;
 }
-img {
+#foto-perfil{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -79,13 +79,43 @@ ul{
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    padding: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 #skills .skills_icons img{
     width: 50px;
     transition: 0.6s;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .skills_icons img:hover{
     opacity: 0.7;
     transform: scale(1.5);
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      margin-left: 85px;
+      margin-right: 10px;
+    }
+    #foto-perfil{
+        width: 130px;
+    }
+    .skills_icons{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        padding: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+    #skills .skills_icons img{
+        width: 35px;
+        transition: 0.6s;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+  }
